@@ -1,0 +1,117 @@
+{
+  "": {
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/primary.swiftdeps"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/App/TesbihatGunlugumApp.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/TesbihatGunlugumApp.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/TesbihatGunlugumApp.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/TesbihatGunlugumApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/TesbihatGunlugumApp.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/TesbihatGunlugumApp.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Managers/HapticManager.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HapticManager.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HapticManager.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HapticManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HapticManager.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HapticManager.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Managers/NotificationManager.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/NotificationManager.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/NotificationManager.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/NotificationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/NotificationManager.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/NotificationManager.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Managers/SoundManager.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SoundManager.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SoundManager.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SoundManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SoundManager.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SoundManager.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Managers/WatchConnectivityManager.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchConnectivityManager.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchConnectivityManager.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchConnectivityManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchConnectivityManager.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchConnectivityManager.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Models/EtkinlikModel.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/EtkinlikModel.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/EtkinlikModel.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/EtkinlikModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/EtkinlikModel.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/EtkinlikModel.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Models/ZikirTemplate.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ZikirTemplate.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ZikirTemplate.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ZikirTemplate~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ZikirTemplate.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ZikirTemplate.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Views/AddEventSheet.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/AddEventSheet.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/AddEventSheet.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/AddEventSheet~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/AddEventSheet.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/AddEventSheet.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Views/ConfettiView.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ConfettiView.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ConfettiView.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ConfettiView~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ConfettiView.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ConfettiView.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Views/ContentView.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ContentView.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ContentView.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ContentView.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Views/CounterView.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/CounterView.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/CounterView.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/CounterView~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/CounterView.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/CounterView.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Views/HistoryView.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HistoryView.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HistoryView.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HistoryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HistoryView.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/HistoryView.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Views/IPadSidebarView.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/IPadSidebarView.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/IPadSidebarView.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/IPadSidebarView~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/IPadSidebarView.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/IPadSidebarView.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Views/ProgressRingView.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ProgressRingView.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ProgressRingView.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ProgressRingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ProgressRingView.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/ProgressRingView.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Views/SettingsView.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SettingsView.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/SettingsView.dia"
+  },
+  "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/Watch/WatchCounterView.swift": {
+    "dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchCounterView.d",
+    "object": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchCounterView.swift.o",
+    "swiftmodule": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchCounterView~partial.swiftmodule",
+    "swift-dependencies": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchCounterView.swiftdeps",
+    "diagnostics": "/Users/smnkc/Desktop/TesbihatGunlugum-iOS/.build/arm64-apple-macosx/debug/TesbihatGunlugum.build/WatchCounterView.dia"
+  }
+}

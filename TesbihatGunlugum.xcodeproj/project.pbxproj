@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000012800000100000001 /* TesbihatGunlugumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000001 /* TesbihatGunlugumApp.swift */; };
+		B00000012800000100000002 /* EtkinlikModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000002 /* EtkinlikModel.swift */; };
+		B00000012800000100000003 /* ZikirTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000003 /* ZikirTemplate.swift */; };
+		B00000012800000100000004 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000004 /* HapticManager.swift */; };
+		B00000012800000100000005 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000005 /* SoundManager.swift */; };
+		B00000012800000100000006 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000006 /* NotificationManager.swift */; };
+		B00000012800000100000008 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000008 /* ProgressRingView.swift */; };
+		B00000012800000100000009 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000009 /* ConfettiView.swift */; };
+		B00000012800000100000010 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000010 /* CounterView.swift */; };
+		B00000012800000100000011 /* AddEventSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000011 /* AddEventSheet.swift */; };
+		B00000012800000100000012 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000012 /* HistoryView.swift */; };
+		B00000012800000100000013 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000013 /* SettingsView.swift */; };
+		B00000012800000100000015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000015 /* ContentView.swift */; };
+		B00000012800000100000017 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000017 /* Theme.swift */; };
+		B00000012800000100000018 /* DailyEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000018 /* DailyEventsView.swift */; };
+		B00000012800000100000019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000019 /* Assets.xcassets */; };
+		B00000012800000100000020 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000020 /* OnboardingView.swift */; };
+		B00000012800000100000021 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000021 /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00000012800000100000001 /* TesbihatGunlugumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesbihatGunlugumApp.swift; sourceTree = "<group>"; };
+		F00000012800000100000002 /* EtkinlikModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinlikModel.swift; sourceTree = "<group>"; };
+		F00000012800000100000003 /* ZikirTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirTemplate.swift; sourceTree = "<group>"; };
+		F00000012800000100000004 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		F00000012800000100000005 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		F00000012800000100000006 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		F00000012800000100000008 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		F00000012800000100000009 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		F00000012800000100000010 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		F00000012800000100000011 /* AddEventSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventSheet.swift; sourceTree = "<group>"; };
+		F00000012800000100000012 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		F00000012800000100000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F00000012800000100000015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F00000012800000100000017 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F00000012800000100000018 /* DailyEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyEventsView.swift; sourceTree = "<group>"; };
+		F00000012800000100000019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00000012800000100000020 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F00000012800000100000021 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		P00000012800000100000002 /* TesbihatGunlugum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesbihatGunlugum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		G00000012800000100000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F00000012800000100000001 /* TesbihatGunlugumApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G00000012800000100000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F00000012800000100000002 /* EtkinlikModel.swift */,
+				F00000012800000100000003 /* ZikirTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G00000012800000100000003 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F00000012800000100000004 /* HapticManager.swift */,
+				F00000012800000100000005 /* SoundManager.swift */,
+				F00000012800000100000006 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		G00000012800000100000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F00000012800000100000008 /* ProgressRingView.swift */,
+				F00000012800000100000009 /* ConfettiView.swift */,
+				F00000012800000100000010 /* CounterView.swift */,
+				F00000012800000100000011 /* AddEventSheet.swift */,
+				F00000012800000100000012 /* HistoryView.swift */,
+				F00000012800000100000013 /* SettingsView.swift */,
+				F00000012800000100000015 /* ContentView.swift */,
+				F00000012800000100000018 /* DailyEventsView.swift */,
+				F00000012800000100000020 /* OnboardingView.swift */,
+				F00000012800000100000021 /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G00000012800000100000005 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F00000012800000100000017 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		P00000012800000100000003 = {
+			isa = PBXGroup;
+			children = (
+				G00000012800000100000001 /* App */,
+				G00000012800000100000005 /* Theme */,
+				G00000012800000100000002 /* Models */,
+				G00000012800000100000003 /* Managers */,
+				G00000012800000100000004 /* Views */,
+				F00000012800000100000019 /* Assets.xcassets */,
+				P00000012800000100000099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		P00000012800000100000099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				P00000012800000100000002 /* TesbihatGunlugum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T00000012800000100000001 /* TesbihatGunlugum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X00000012800000100000001 /* Build configuration list for PBXNativeTarget "TesbihatGunlugum" */;
+			buildPhases = (
+				S00000012800000100000001 /* Sources */,
+				S00000012800000100000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesbihatGunlugum;
+			productName = TesbihatGunlugum;
+			productReference = P00000012800000100000002 /* TesbihatGunlugum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P00000012800000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					T00000012800000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = X00000012800000100000002 /* Build configuration list for PBXProject "TesbihatGunlugum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = P00000012800000100000003;
+			productRefGroup = P00000012800000100000099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T00000012800000100000001 /* TesbihatGunlugum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		S00000012800000100000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000012800000100000019 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S00000012800000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000012800000100000001 /* TesbihatGunlugumApp.swift in Sources */,
+				B00000012800000100000002 /* EtkinlikModel.swift in Sources */,
+				B00000012800000100000003 /* ZikirTemplate.swift in Sources */,
+				B00000012800000100000004 /* HapticManager.swift in Sources */,
+				B00000012800000100000005 /* SoundManager.swift in Sources */,
+				B00000012800000100000006 /* NotificationManager.swift in Sources */,
+				B00000012800000100000008 /* ProgressRingView.swift in Sources */,
+				B00000012800000100000009 /* ConfettiView.swift in Sources */,
+				B00000012800000100000010 /* CounterView.swift in Sources */,
+				B00000012800000100000011 /* AddEventSheet.swift in Sources */,
+				B00000012800000100000012 /* HistoryView.swift in Sources */,
+				B00000012800000100000013 /* SettingsView.swift in Sources */,
+				B00000012800000100000015 /* ContentView.swift in Sources */,
+				B00000012800000100000017 /* Theme.swift in Sources */,
+				B00000012800000100000018 /* DailyEventsView.swift in Sources */,
+				B00000012800000100000020 /* OnboardingView.swift in Sources */,
+				B00000012800000100000021 /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		X00000012800000100000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMPOUND_ASSIGNMENT_ENUM_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONV = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		X00000012800000100000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMPOUND_ASSIGNMENT_ENUM_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONV = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		X00000012800000100000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52NS2RR738;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tesbihat Günlüğüm";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesbihat.gunlugum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		X00000012800000100000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52NS2RR738;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tesbihat Günlüğüm";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesbihat.gunlugum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		X00000012800000100000001 /* Build configuration list for PBXNativeTarget "TesbihatGunlugum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				X00000012800000100000005 /* Debug */,
+				X00000012800000100000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X00000012800000100000002 /* Build configuration list for PBXProject "TesbihatGunlugum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				X00000012800000100000003 /* Debug */,
+				X00000012800000100000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P00000012800000100000001 /* Project object */;
+}
