@@ -118,7 +118,7 @@ struct SettingsView: View {
                     HStack {
                         Text("Not")
                         Spacer()
-                        Text("Fezayir Yamen Hayrına")
+                        Text("Fezair Yamen Hayrına")
                             .font(.subheadline)
                             .bold()
                             .foregroundStyle(Theme.primaryGreenColor)
