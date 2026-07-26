@@ -102,6 +102,21 @@ struct HistoryView: View {
                                         HStack {
                                             Spacer()
                                             
+                                            // Paylaş Butonu
+                                            let cardView = ZikirShareCardView(event: event)
+                                            let renderer = ImageRenderer(content: cardView)
+                                            if let image = renderer.uiImage {
+                                                ShareLink(item: Image(uiImage: image), preview: SharePreview(event.title, image: Image(uiImage: image))) {
+                                                    Image(systemName: "square.and.arrow.up")
+                                                        .font(.caption2)
+                                                        .foregroundStyle(Theme.primaryGreenColor)
+                                                        .padding(6)
+                                                        .background(Theme.primaryGreenColor.opacity(0.12))
+                                                        .clipShape(Circle())
+                                                }
+                                                .buttonStyle(.plain)
+                                            }
+                                            
                                             // Sil Butonu
                                             Button {
                                                 eventToDelete = event

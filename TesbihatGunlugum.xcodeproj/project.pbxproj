@@ -25,6 +25,8 @@
 		B00000012800000100000019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000019 /* Assets.xcassets */; };
 		B00000012800000100000020 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000020 /* OnboardingView.swift */; };
 		B00000012800000100000021 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000021 /* SplashScreenView.swift */; };
+		B00000012800000100000022 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000022 /* SpeechManager.swift */; };
+		B00000012800000100000023 /* ZikirShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012800000100000023 /* ZikirShareCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		F00000012800000100000019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F00000012800000100000020 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F00000012800000100000021 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F00000012800000100000022 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		F00000012800000100000023 /* ZikirShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirShareCardView.swift; sourceTree = "<group>"; };
 		P00000012800000100000002 /* TesbihatGunlugum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesbihatGunlugum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +77,7 @@
 				F00000012800000100000004 /* HapticManager.swift */,
 				F00000012800000100000005 /* SoundManager.swift */,
 				F00000012800000100000006 /* NotificationManager.swift */,
+				F00000012800000100000022 /* SpeechManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 				F00000012800000100000018 /* DailyEventsView.swift */,
 				F00000012800000100000020 /* OnboardingView.swift */,
 				F00000012800000100000021 /* SplashScreenView.swift */,
+				F00000012800000100000023 /* ZikirShareCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +214,8 @@
 				B00000012800000100000018 /* DailyEventsView.swift in Sources */,
 				B00000012800000100000020 /* OnboardingView.swift in Sources */,
 				B00000012800000100000021 /* SplashScreenView.swift in Sources */,
+				B00000012800000100000022 /* SpeechManager.swift in Sources */,
+				B00000012800000100000023 /* ZikirShareCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
