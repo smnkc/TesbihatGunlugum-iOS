@@ -173,8 +173,6 @@ struct TemplatesView: View {
     @Environment(\.colorScheme) private var colorScheme
     private var isDarkMode: Bool { colorScheme == .dark }
     
-    @StateObject private var speechManager = SpeechManager.shared
-    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -238,46 +236,29 @@ struct TemplatesView: View {
                                             
                                             Spacer(minLength: 4)
                                             
-                                            VStack(spacing: 8) {
-                                                // Sesli Dinle Butonu
-                                                let textToSpeak = template.turkishPronunciation ?? template.title
-                                                let isCurrentSpeaking = speechManager.isSpeaking && speechManager.currentSpeakingText == textToSpeak
-                                                Button {
-                                                    speechManager.speak(textToSpeak)
-                                                } label: {
-                                                    Image(systemName: isCurrentSpeaking ? "speaker.wave.3.fill" : "speaker.wave.2.fill")
+                                            // SET İSE DOĞRUDAN SAYAÇ EKRANINA GEÇER, TEKLİ İSE DÜZENLEME AÇAR
+                                            Button {
+                                                if template.steps != nil {
+                                                    startSetDirectly(template)
+                                                } else {
+                                                    selectedTemplateForSheet = template
+                                                }
+                                            } label: {
+                                                HStack(spacing: 4) {
+                                                    Image(systemName: "play.fill")
                                                         .font(.caption2)
-                                                        .foregroundStyle(isCurrentSpeaking ? Color.orange : Theme.primaryGreenColor)
-                                                        .padding(8)
-                                                        .background(isCurrentSpeaking ? Color.orange.opacity(0.15) : Theme.primaryGreenColor.opacity(0.12))
-                                                        .clipShape(Circle())
+                                                    Text("Başlat")
+                                                        .font(.caption)
+                                                        .bold()
                                                 }
-                                                .buttonStyle(.plain)
-                                                
-                                                // SET İSE DOĞRUDAN SAYAÇ EKRANINA GEÇER, TEKLİ İSE DÜZENLEME AÇAR
-                                                Button {
-                                                    if template.steps != nil {
-                                                        startSetDirectly(template)
-                                                    } else {
-                                                        selectedTemplateForSheet = template
-                                                    }
-                                                } label: {
-                                                    HStack(spacing: 4) {
-                                                        Image(systemName: "play.fill")
-                                                            .font(.caption2)
-                                                        Text("Başlat")
-                                                            .font(.caption)
-                                                            .bold()
-                                                    }
-                                                    .padding(.horizontal, 14)
-                                                    .padding(.vertical, 8)
-                                                    .background(Theme.primaryGreenColor)
-                                                    .foregroundColor(.white)
-                                                    .cornerRadius(12)
-                                                    .shadow(color: Theme.primaryGreenColor.opacity(0.3), radius: 4, x: 0, y: 2)
-                                                }
-                                                .buttonStyle(.plain)
+                                                .padding(.horizontal, 14)
+                                                .padding(.vertical, 10)
+                                                .background(Theme.primaryGreenColor)
+                                                .foregroundColor(.white)
+                                                .cornerRadius(12)
+                                                .shadow(color: Theme.primaryGreenColor.opacity(0.3), radius: 4, x: 0, y: 2)
                                             }
+                                            .buttonStyle(.plain)
                                         }
                                         .frame(height: 122) // STANDART VE EŞİT YÜKSEKLİKLİ KARTLAR
                                         .glassCard(isDarkMode: isDarkMode)

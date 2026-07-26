@@ -15,8 +15,6 @@ struct CounterView: View {
     @State private var showCompletionAlert: Bool = false
     @State private var showResetConfirm: Bool = false
     
-    @StateObject private var speechManager = SpeechManager.shared
-    
     // Metin Uzunluğuna Göre Maksimum Büyüyen Akıllı Punto Boyutu
     private func fontSizeForPronunciation(_ text: String) -> CGFloat {
         if text.count > 160 { return 17.5 }
@@ -66,42 +64,24 @@ struct CounterView: View {
                     
                     Spacer()
                     
-                    HStack(spacing: 8) {
-                        // Paylaş Butonu
-                        let cardView = ZikirShareCardView(event: event)
-                        let renderer = ImageRenderer(content: cardView)
-                        if let image = renderer.uiImage {
-                            ShareLink(item: Image(uiImage: image), preview: SharePreview(event.activeTitle, image: Image(uiImage: image))) {
-                                Image(systemName: "square.and.arrow.up")
-                                    .font(.caption)
-                                    .bold()
-                                    .foregroundStyle(Theme.primaryGreenColor)
-                                    .padding(8)
-                                    .background(Theme.primaryGreenColor.opacity(0.12))
-                                    .clipShape(Circle())
-                            }
-                            .buttonStyle(.plain)
+                    // Kilit Modu Butonu
+                    Button {
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
+                            isLocked.toggle()
                         }
-                        
-                        // Kilit Modu Butonu
-                        Button {
-                            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
-                                isLocked.toggle()
-                            }
-                            if isHapticEnabled { HapticManager.shared.undoTap() }
-                        } label: {
-                            HStack(spacing: 4) {
-                                Image(systemName: isLocked ? "lock.fill" : "lock.open.fill")
-                                Text(isLocked ? "Kilitli" : "Kilitle")
-                                    .font(.caption2)
-                                    .bold()
-                            }
-                            .foregroundStyle(isLocked ? Color.red : Theme.primaryGreenColor)
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 8)
-                            .background(isLocked ? Color.red.opacity(0.12) : Theme.primaryGreenColor.opacity(0.12))
-                            .clipShape(Capsule())
+                        if isHapticEnabled { HapticManager.shared.undoTap() }
+                    } label: {
+                        HStack(spacing: 4) {
+                            Image(systemName: isLocked ? "lock.fill" : "lock.open.fill")
+                            Text(isLocked ? "Kilitli" : "Kilitle")
+                                .font(.caption2)
+                                .bold()
                         }
+                        .foregroundStyle(isLocked ? Color.red : Theme.primaryGreenColor)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 8)
+                        .background(isLocked ? Color.red.opacity(0.12) : Theme.primaryGreenColor.opacity(0.12))
+                        .clipShape(Capsule())
                     }
                 }
                 .glassCard(isDarkMode: isDarkMode)
@@ -111,29 +91,6 @@ struct CounterView: View {
                 // 2. MAKSİMUM BÜTÜN ALANI DOLDURAN ORTALANMIŞ VE %100 TIKLANABİLİR OKUMA BANNER'I
                 VStack {
                     Spacer(minLength: 0)
-                    
-                    let textToSpeak = event.activePronunciation ?? event.activeTitle
-                    if !textToSpeak.isEmpty {
-                        let isCurrentSpeaking = speechManager.isSpeaking && speechManager.currentSpeakingText == textToSpeak
-                        Button {
-                            speechManager.speak(textToSpeak)
-                        } label: {
-                            HStack(spacing: 4) {
-                                Image(systemName: isCurrentSpeaking ? "speaker.wave.3.fill" : "speaker.wave.2.fill")
-                                    .font(.caption2)
-                                Text(isCurrentSpeaking ? "Durdur" : "Sesli Dinle")
-                                    .font(.caption2)
-                                    .bold()
-                            }
-                            .foregroundStyle(isCurrentSpeaking ? Color.orange : Theme.primaryGreenColor)
-                            .padding(.horizontal, 10)
-                            .padding(.vertical, 5)
-                            .background(isCurrentSpeaking ? Color.orange.opacity(0.15) : Theme.primaryGreenColor.opacity(0.12))
-                            .clipShape(Capsule())
-                        }
-                        .buttonStyle(.plain)
-                        .padding(.bottom, 6)
-                    }
                     
                     if let arabic = event.activeArabicText, !arabic.isEmpty {
                         Text(arabic)
