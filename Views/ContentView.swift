@@ -282,6 +282,7 @@ struct TemplatesView: View {
             targetCount: template.defaultTarget,
             note: template.meaning,
             turkishPronunciation: template.turkishPronunciation,
+            arabicText: template.arabicText,
             isSet: true,
             steps: template.steps
         )

@@ -9,6 +9,7 @@ final class EtkinlikModel: Identifiable {
     var currentCount: Int = 0
     var note: String? = nil
     var turkishPronunciation: String? = nil
+    var arabicText: String? = nil
     var startDate: Date = Date()
     var completedDate: Date? = nil
     var isCompleted: Bool = false
@@ -25,6 +26,7 @@ final class EtkinlikModel: Identifiable {
         currentCount: Int = 0,
         note: String? = nil,
         turkishPronunciation: String? = nil,
+        arabicText: String? = nil,
         startDate: Date = Date(),
         completedDate: Date? = nil,
         isCompleted: Bool = false,
@@ -39,6 +41,7 @@ final class EtkinlikModel: Identifiable {
         self.currentCount = currentCount
         self.note = note
         self.turkishPronunciation = turkishPronunciation
+        self.arabicText = arabicText
         self.startDate = startDate
         self.completedDate = completedDate
         self.isCompleted = isCompleted
@@ -69,7 +72,7 @@ final class EtkinlikModel: Identifiable {
         if isSet, let steps = steps, currentStepIndex < steps.count {
             return steps[currentStepIndex].arabicText
         }
-        return nil
+        return arabicText
     }
     
     // Yüzdelik İlerleme Oranı (0.0 - 1.0)

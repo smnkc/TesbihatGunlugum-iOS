@@ -105,7 +105,7 @@ struct AddEventSheet: View {
                                     }
                                 }
                                 
-                                // 3. Hedef Sayı (Her Zaman Düzenlenebilir)
+                                // 3. Hedef Sayı
                                 VStack(alignment: .leading, spacing: 4) {
                                     HStack {
                                         Text("Hedef Sayı")
@@ -113,16 +113,33 @@ struct AddEventSheet: View {
                                             .bold()
                                             .foregroundStyle(.secondary)
                                         Spacer()
-                                        Text("(Maksimum: 1.000.000)")
-                                            .font(.caption2)
-                                            .foregroundStyle(.secondary)
+                                        if initialTemplate?.steps == nil {
+                                            Text("(Maksimum: 1.000.000)")
+                                                .font(.caption2)
+                                                .foregroundStyle(.secondary)
+                                        }
                                     }
-                                    TextField("Hedef", text: $targetCountString)
-                                        .font(.system(.body, design: .monospaced))
-                                        .keyboardType(.numberPad)
+                                    if initialTemplate?.steps != nil {
+                                        HStack {
+                                            Text(targetCountString)
+                                                .font(.system(.body, design: .monospaced).weight(.bold))
+                                                .foregroundStyle(isDarkMode ? .white : Theme.darkSlateColor)
+                                            Spacer()
+                                            Image(systemName: "lock.fill")
+                                                .font(.caption)
+                                                .foregroundColor(.gray)
+                                        }
                                         .padding(10)
-                                        .background(isDarkMode ? Color.white.opacity(0.08) : Color(red: 0.96, green: 0.97, blue: 0.98))
+                                        .background(isDarkMode ? Color.white.opacity(0.05) : Color(red: 0.95, green: 0.96, blue: 0.97))
                                         .cornerRadius(12)
+                                    } else {
+                                        TextField("Hedef", text: $targetCountString)
+                                            .font(.system(.body, design: .monospaced))
+                                            .keyboardType(.numberPad)
+                                            .padding(10)
+                                            .background(isDarkMode ? Color.white.opacity(0.08) : Color(red: 0.96, green: 0.97, blue: 0.98))
+                                            .cornerRadius(12)
+                                    }
                                 }
                             }
                             .glassCard(isDarkMode: isDarkMode)
@@ -182,15 +199,21 @@ struct AddEventSheet: View {
     }
     
     private func saveEvent() {
-        let rawTarget = Int(targetCountString) ?? 1000
-        let target = min(max(rawTarget, 1), 1_000_000)
         let isSetTemplate = initialTemplate?.steps != nil
+        let rawTarget = Int(targetCountString) ?? 1000
+        let target: Int
+        if isSetTemplate, let steps = initialTemplate?.steps {
+            target = steps.reduce(0) { $0 + $1.targetCount }
+        } else {
+            target = min(max(rawTarget, 1), 1_000_000)
+        }
         
         let newEvent = EtkinlikModel(
             title: title.trimmingCharacters(in: .whitespaces),
             targetCount: target,
             note: note.isEmpty ? nil : note,
             turkishPronunciation: turkishPronunciation.isEmpty ? nil : turkishPronunciation,
+            arabicText: initialTemplate?.arabicText,
             isSet: isSetTemplate,
             steps: initialTemplate?.steps
         )

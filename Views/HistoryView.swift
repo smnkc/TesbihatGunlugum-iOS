@@ -166,7 +166,11 @@ struct HistoryView: View {
             title: event.title,
             targetCount: event.targetCount,
             currentCount: 0,
-            note: event.note
+            note: event.note,
+            turkishPronunciation: event.turkishPronunciation,
+            arabicText: event.arabicText,
+            isSet: event.isSet,
+            steps: event.steps
         )
         modelContext.insert(newEvent)
         try? modelContext.save()

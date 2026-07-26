@@ -92,6 +92,17 @@ struct CounterView: View {
                 VStack {
                     Spacer(minLength: 0)
                     
+                    if let arabic = event.activeArabicText, !arabic.isEmpty {
+                        Text(arabic)
+                            .font(.system(size: 24, weight: .semibold))
+                            .foregroundStyle(Theme.secondaryGreenColor)
+                            .multilineTextAlignment(.center)
+                            .minimumScaleFactor(0.6)
+                            .lineLimit(3)
+                            .padding(.horizontal, 16)
+                            .padding(.bottom, 4)
+                    }
+                    
                     if let pron = event.activePronunciation, !pron.isEmpty {
                         Text("“\(pron)”")
                             .font(.system(size: fontSizeForPronunciation(pron), weight: .semibold, design: .serif))
@@ -217,6 +228,8 @@ struct CounterView: View {
                 }
                 .padding(.horizontal)
                 .padding(.bottom, 16)
+                .contentShape(Rectangle())
+                .onTapGesture {} // Engeller arka plan dokunmasının aksiyon barında tetiklenmesini
             }
         }
         .alert("Tebrikler! 🎉", isPresented: $showCompletionAlert) {
